@@ -68,12 +68,15 @@
     display: block;
     border: 2px solid #ffffff;
     padding: 5px 10px;
+    border-radius: 5px;
+
 }
 
 a.link-to-book:hover {
     background-color: #ffffff;
     color: #95999e;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .about-section p,
@@ -195,4 +198,22 @@ a.link-to-book:hover {
         text-align: center;
     }
 
+}
+@media (min-width:768px) {
+    .section-intro {
+        background-attachment: fixed;
+        max-height: 650px;
+        background-position: center center;
+    }
+    .link-to-book {
+        font-size: 20px;
+    }
+    .flex-column-form,.opening-time,.contact-adress {
+        border: 1px #75685A solid;
+        padding: 30px;
+        /* box-shadow: 2px 2px 55px 3px rgba(143,162,176,0.69); */
+    }
+    .container h3,.contact-adress {
+        text-align: center;
+    }
 }
