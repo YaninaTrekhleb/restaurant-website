@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
-/* font-family: 'Big Shoulders Text', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
 
 .nav-flex-row {
     display: flex;
@@ -20,7 +19,7 @@
 }
 
 .nav-flex-row li a {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
     color: #ffffff;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -81,9 +80,20 @@ a.link-to-book:hover {
     text-align: center;
     width: 60%;
     margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
     font-size: 1.8em;
     text-transform: uppercase;
+}
+
+#carouselExampleControls {
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    top:20%;
+    
+    box-shadow: 2px 2px 10px 5px gray;    
 }
 
 .carousel-inner {
@@ -103,7 +113,7 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
     color: #ffffff;
     background-color: #95999e;
     text-transform: uppercase;
