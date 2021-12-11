@@ -196,3 +196,21 @@ a.link-to-book:hover {
     }
 
 }
+
+/* styling for the cards */
+
+.cards-here {
+    border-radius: 100px;
+    background-image: radial-gradient( #90F7Ec, #32CCBC) ;
+    color: rgb(85, 83, 83);
+    font-family: 'Big Shoulders Text', cursive;
+}
+.card-head-font{
+    font-size: 20px;
+}
+.card-btn
+{
+    border-radius: 10px;
+}
+
+/*styling for the cards ends here */
