@@ -197,6 +197,15 @@ a.link-to-book:hover {
 
 }
 
+
+/* icon styling */
+.contact-adress img{
+    height: 40px;
+    padding: 5px;
+}
+
+/* icon styling ends here */
+
 /* styling for the cards */
 
 .cards-here {
@@ -214,3 +223,8 @@ a.link-to-book:hover {
 }
 
 /*styling for the cards ends here */
+
+
+/* footer section */
+
+
