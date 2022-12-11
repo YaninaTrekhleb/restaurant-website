@@ -2,6 +2,7 @@
 
 - Used bootstrap tools & own styles.
 - Implemented responsive template.
+- Takeaway
 
 👉🏻 [Demo](https://yaninatrekhleb.github.io/restaurant-website/)
 
