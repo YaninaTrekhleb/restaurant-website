@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="index.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Restaurant Website</title>
-  </head>
-  <body>
-    
-    
+  <link rel="stylesheet" href="index.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Restaurant Website</title>
+  <style type="text/css">
+  
+    /* Set the size of the div element 
+    that contains the map */
+    #map {
+         left: 40%;
+        height: 400px;
+        width: 400px;
+    }
+      
+    h3 {
+        color: #308d46;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+
+
   <nav>
     <ul class="nav-flex-row">
       <li class="nav-item">
@@ -43,17 +61,17 @@
   <section class="about-section">
     <article>
       <h3>
-          Section for the text why your restaurant is the best.
+        Section for the text why your restaurant is the best.
       </h3>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
-        nesciunt quasi adipisci impedit!Lorem ipsum dolor sit, 
-        amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        A quos, voluptatum illum mollitia dolores libero placeat
+        nesciunt quasi adipisci impedit!Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit.
+        A quos, voluptatum illum mollitia dolores libero placeat
         nesciunt quasi adipisci impedit!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        A quos, voluptatum illum mollitia dolores libero placeat 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        A quos, voluptatum illum mollitia dolores libero placeat
         nesciunt quasi adipisci impedit!Lorem ipsum dolor sit.
       </p>
     </article>
@@ -87,27 +105,29 @@
         <h3>
           Make a booking
         </h3>
-      <form class="media-centered">
+        <form class="media-centered">
           <div class="form-group">
             <p>
               Please leave your number we will call to make a reservation
             </p>
-            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name">
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"
+              placeholder="Enter your name">
           </div>
           <div class="form-group">
-            <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
+            <input type="number" class="form-control" id="exampleInputphoneNumber1"
+              placeholder="Enter your phone number">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        </form>
       </div>
       <div class="opening-time">
         <h3>
           Opening times
         </h3>
         <p>
-         <span>Monday—Thursday: 08:00 — 22:00</span> 
-         <span>Friday—Saturday: 09:00 — 23:00 </span>
-         <span>Sunday: 10:00 — 17:00</span>
+          <span>Monday—Thursday: 08:00 — 22:00</span>
+          <span>Friday—Saturday: 09:00 — 23:00 </span>
+          <span>Sunday: 10:00 — 17:00</span>
         </p>
       </div>
       <div class="contact-adress">
@@ -121,17 +141,53 @@
         </p>
       </div>
     </div>
-    </div>
+  </div>
+  <h3>
+    Add Google Map on Your 
+    Webpage
+</h3>
+
+<!--The div element for the map -->
+<div id="map"></div>
 
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- 
-  </body>
-  
-</html> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>&callback=initMap&libraries=&v=weekly" async>
+  </script>
+
+  <script>
+
+    // Initialize and add the map
+    function initMap() {
+
+      // The location of Geeksforgeeks office
+      const gfg_office = {
+        lat: 28.50231,
+        lng: 77.40548
+      };
+
+      // Create the map, centered at gfg_office
+      const map = new google.maps.Map(
+        document.getElementById("map"), {
+
+        // Set the zoom of the map
+        zoom: 17.56,
+        center: gfg_office,
+      });
+    }
+  </script>
+</body>
+
+</html>
