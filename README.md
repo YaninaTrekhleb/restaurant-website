@@ -6,3 +6,4 @@
 👉🏻 [Demo](https://yaninatrekhleb.github.io/restaurant-website/)
 
 ![Demo](img/demo.gif)
+Contributor: Archana Gadimundati
